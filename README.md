@@ -1,6 +1,8 @@
 # Retail Sales Forecasting & Trend Analysis
 
-End-to-end project for retail sales forecasting and trend analysis using a real-world supermarket sales dataset. Includes data cleaning, feature engineering, exploratory data analysis, time series forecasting (ARIMA, Prophet, Linear Regression), and an interactive Streamlit dashboard.
+[![GitHub](https://img.shields.io/badge/GitHub-arjavjain310%2FRetail--Sales--Forecasting--blue)](https://github.com/arjavjain310/Retail-Sales-Forecasting-)
+
+End-to-end project for retail sales forecasting and trend analysis using a real-world supermarket sales dataset. **Currency: Indian Rupee (₹).** Deploy on [Streamlit Community Cloud](https://share.streamlit.io). Includes data cleaning, feature engineering, exploratory data analysis, time series forecasting (ARIMA, Prophet, Linear Regression), and an interactive Streamlit dashboard.
 
 ## Project Structure
 
@@ -73,6 +75,11 @@ Models are evaluated on a held-out period (last 3 months by default) using:
 - Python 3.8+
 - See `requirements.txt` for package versions (pandas, numpy, matplotlib, seaborn, plotly, statsmodels, prophet, scikit-learn, streamlit, requests).
 - **Prophet** is optional; if not installed, ARIMA and Linear Regression are still used. Install with `pip install prophet` for Prophet support.
+
+## GitHub & Deploy
+
+- **Repository:** [https://github.com/arjavjain310/Retail-Sales-Forecasting-](https://github.com/arjavjain310/Retail-Sales-Forecasting-)
+- **Deploy on Streamlit Cloud:** Go to [share.streamlit.io](https://share.streamlit.io) → New app → select this repo → Main file: `app.py` → Deploy. See [DEPLOY.md](DEPLOY.md) for steps.
 
 ## Resume-Ready Notes
 
